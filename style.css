@@ -152,10 +152,9 @@ a.button {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1.5rem!important;
         padding-left: 1.5rem!important;
+        justify-content: flex-end;
     }
-    .navbar-expand-lg .navbar-collapse {
-        display: flex!important;
-        flex-basis: auto;
+    .navbar__right {
         justify-content: flex-end;
     }
     .navbar-toggler {
