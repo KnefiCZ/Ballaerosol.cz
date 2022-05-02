@@ -1,0 +1,36 @@
+Fonts:
+300
+400
+600
+
+800
+
+Pomoc:
+npm
+code pen https://codepen.io/
+cssgradient https://cssgradient.io/
+google fonts https://fonts.google.com/
+
+Info:
+    Obrázky ukládat 
+        BEZ:
+            Radiusu,
+            Stínů
+        Velikostně 80% kvality
+
+    Work_boxy udělat kompletně do HTML,
+        Div
+            Obrázek - bg_img
+            texty - div a <a href>
+
+Otázky:
+    FORM velikosti.......
+Pozn.
+ig, fb, atd do divu
+
+- nav bar do containeru
+- rozBalll zmenšit
+
+
+
+socials gradient
