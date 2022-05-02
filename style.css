@@ -695,13 +695,7 @@ a.button {
     .background__image {
         background-position: -250px;
     }
-    .boxstyle__regularbox--text {
-        font-size: 25px;
-        line-height: 30px;
-        padding: 3rem 0rem 0rem 0.5rem;
-        text-decoration: none;
-        width: fit-content;
-    }
+
     /* NAVBAR */
     .navlink {
     display:inline;
