@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(0.588669,0,0,0.588669,23.5104,23.5099)">
-        <path d="M84.494,22.535C79.35,22.535 74.603,20.831 70.792,17.956C66.421,14.66 63.28,9.826 62.171,4.254C61.895,2.877 61.748,1.456 61.733,0L47.038,0L47.038,40.154L47.02,62.148C47.02,68.028 43.191,73.014 37.883,74.767C36.343,75.276 34.679,75.517 32.946,75.422C30.735,75.301 28.663,74.633 26.862,73.556C23.029,71.264 20.431,67.105 20.36,62.348C20.249,54.913 26.26,48.852 33.689,48.852C35.156,48.852 36.564,49.091 37.883,49.526L37.883,34.607C36.492,34.401 35.077,34.294 33.645,34.294C25.513,34.294 17.908,37.674 12.471,43.764C8.362,48.366 5.897,54.237 5.517,60.394C5.019,68.482 7.978,76.17 13.718,81.843C14.561,82.676 15.447,83.449 16.373,84.162C21.294,87.947 27.31,90 33.646,90C35.077,90 36.493,89.894 37.884,89.688C43.803,88.811 49.264,86.102 53.574,81.841C58.87,76.607 61.796,69.658 61.827,62.262L61.751,29.418C64.277,31.367 67.04,32.98 70.004,34.231C74.615,36.176 79.504,37.162 84.535,37.161L84.535,22.532C84.539,22.535 84.497,22.535 84.494,22.535Z" style="fill:white;fill-rule:nonzero;"/>
-        <clipPath id="_clip1">
-            <path d="M84.494,22.535C79.35,22.535 74.603,20.831 70.792,17.956C66.421,14.66 63.28,9.826 62.171,4.254C61.895,2.877 61.748,1.456 61.733,0L47.038,0L47.038,40.154L47.02,62.148C47.02,68.028 43.191,73.014 37.883,74.767C36.343,75.276 34.679,75.517 32.946,75.422C30.735,75.301 28.663,74.633 26.862,73.556C23.029,71.264 20.431,67.105 20.36,62.348C20.249,54.913 26.26,48.852 33.689,48.852C35.156,48.852 36.564,49.091 37.883,49.526L37.883,34.607C36.492,34.401 35.077,34.294 33.645,34.294C25.513,34.294 17.908,37.674 12.471,43.764C8.362,48.366 5.897,54.237 5.517,60.394C5.019,68.482 7.978,76.17 13.718,81.843C14.561,82.676 15.447,83.449 16.373,84.162C21.294,87.947 27.31,90 33.646,90C35.077,90 36.493,89.894 37.884,89.688C43.803,88.811 49.264,86.102 53.574,81.841C58.87,76.607 61.796,69.658 61.827,62.262L61.751,29.418C64.277,31.367 67.04,32.98 70.004,34.231C74.615,36.176 79.504,37.162 84.535,37.161L84.535,22.532C84.539,22.535 84.497,22.535 84.494,22.535Z" clip-rule="nonzero"/>
-        </clipPath>
-        <g clip-path="url(#_clip1)">
-            <g transform="matrix(4.3508,0,0,3.9525,-1654.17,-400.539)">
-                <path d="M416.627,117.604C416.627,134.3 403.092,147.834 386.396,147.834C369.701,147.834 356.166,134.3 356.166,117.604C356.166,100.908 369.701,87.374 386.396,87.374C403.092,87.374 416.627,100.908 416.627,117.604Z" style="fill:white;fill-rule:nonzero;"/>
-                <clipPath id="_clip2">
-                    <path d="M416.627,117.604C416.627,134.3 403.092,147.834 386.396,147.834C369.701,147.834 356.166,134.3 356.166,117.604C356.166,100.908 369.701,87.374 386.396,87.374C403.092,87.374 416.627,100.908 416.627,117.604Z" clip-rule="nonzero"/>
-                </clipPath>
-                <g clip-path="url(#_clip2)">
-                    <g>
-                        <g transform="matrix(0.390445,-0,-0,0.42979,371.019,91.2338)">
-                            <use xlink:href="#_Image3" x="26.986" y="23.519" width="46.547px" height="52.98px" transform="matrix(0.990371,0,0,0.999627,0,0)"/>
-                        </g>
-                        <g transform="matrix(0.298165,0,0,0.265135,99.4806,-35.3231)">
-                            <circle cx="968.431" cy="575.431" r="138.431" style="fill-opacity:0.7;"/>
-                            <clipPath id="_clip4">
-                                <circle cx="968.431" cy="575.431" r="138.431"/>
-                            </clipPath>
-                            <g clip-path="url(#_clip4)">
-                                <g transform="matrix(-324.17,-6.49253e-14,-7.02438e-14,299.626,1130.57,575.431)">
-                                    <clipPath id="_clip5">
-                                        <rect x="0.02" y="-0.48" width="0.961" height="0.961"/>
-                                    </clipPath>
-                                    <g clip-path="url(#_clip5)">
-                                        <g transform="matrix(-0.00403952,-8.75316e-19,-1.17232e-18,0.00541016,0.678259,-0.327411)">
-                                            <use xlink:href="#_Image6" x="26.986" y="23.519" width="46.547px" height="52.98px" transform="matrix(0.990371,0,0,0.999627,0,0)"/>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
+<svg width="100%" height="100%" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.588669,0,0,0.588669,13.5104,13.5099)">
+        <path d="M84.494,22.535C79.35,22.535 74.603,20.831 70.792,17.956C66.421,14.66 63.28,9.826 62.171,4.254C61.895,2.877 61.748,1.456 61.733,0L47.038,0L47.038,40.154L47.02,62.148C47.02,68.028 43.191,73.014 37.883,74.767C36.343,75.276 34.679,75.517 32.946,75.422C30.735,75.301 28.663,74.633 26.862,73.556C23.029,71.264 20.431,67.105 20.36,62.348C20.249,54.913 26.26,48.852 33.689,48.852C35.156,48.852 36.564,49.091 37.883,49.526L37.883,34.607C36.492,34.401 35.077,34.294 33.645,34.294C25.513,34.294 17.908,37.674 12.471,43.764C8.362,48.366 5.897,54.237 5.517,60.394C5.019,68.482 7.978,76.17 13.718,81.843C14.561,82.676 15.447,83.449 16.373,84.162C21.294,87.947 27.31,90 33.646,90C35.077,90 36.493,89.894 37.884,89.688C43.803,88.811 49.264,86.102 53.574,81.841C58.87,76.607 61.796,69.658 61.827,62.262L61.751,29.418C64.277,31.367 67.04,32.98 70.004,34.231C74.615,36.176 79.504,37.162 84.535,37.161L84.535,22.532C84.539,22.535 84.497,22.535 84.494,22.535Z" style="fill:url(#_Linear1);fill-rule:nonzero;"/>
     </g>
     <defs>
-        <image id="_Image3" width="47px" height="53px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA1CAYAAADRarJRAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB2UlEQVRogc1ZS5bDMAjD83KRuf8lZ9dxHWMkfgmrNmCjukJR0yEivyIy5D/m1+K4rtV591fjmhZVgt7lWLC3+suxOQo6AhipG/PJs42zaMT0/Ipred8JOsz9GbzVvIJGSE6tRWhTBdr7zXxipc28KBt0GOwaGm3ewH2zbieV1dy3cnDN6SbVObCuvHaTQgC9YmBPIDpB03YhovPVBs7cFxlYJM9cz/I3N2/jAd4lmerJW826XCeTh9Sm2nVa17XYWuKoPWgf2LXAc9qPDOxa7KFEhEbu/Mp5FlQF99F8yNtU38SsGF5v88TQbmnDAOkcWljnkQbVp11Cm+rTdktn1BI/qTbj9NyGBV4NGjZmEeAe0Izx+0TGD3DWC3mv38Ly8+i3kQGQlk+vn2eH1lNr5i2pzFAb7To7A7c84+efvkkd1WYueAvw4wc6cV4LBFAENKU2TONK4LTDZH6MdFPJWqf+ucA2rALu5jw6vEjDdJkU4XXec+IZUrnNVep8qUyK1Ol8h+K4dN4CgOQj+n7j/GmTTPlEa6w1IsI/dMrU/ZBMioj8IEXAxu3ARXL+vmcbRzT+q459YmZxOHIANPd3A6stqAIeGtiQ1iprsoDD3ubUNEWXifXQh/oD0qECulK8sygAAAAASUVORK5CYII="/>
-        <image id="_Image6" width="47px" height="53px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA1CAYAAADRarJRAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACuElEQVRogc1awW4UMQz1rPaDOPXEHjhVIBDQFv6xgESpqooW6KWih4L4pXDYSevx2I6dOIEnrTTjzDi28+I4k52gN/6k9HA9Me1Z9mTiWlVsK02yI5s+oWtQZA6MMb6D4QAAm7bXjUjoJ8kwvYwYRxuA8BEYE/mMBOuI4/vfvuiPj7y1zYD+kZeiTGOcZb/s0R9HG8ukzTA6MC7ypRGgMoMDY42n9yXZve7AuEUqX2dYZdmBg3X5UDHHnbhjoqfVOFbZweQvhtz4SYyPMHxGf9pQ1FCHk8HoRQobIrVZZTC6JMb3WEafxe2K7P8qiZ3OjOF8Iz1YPdO/Ksw42dM5892mZKWYz/ibOe1pCfYZSb/ebeAOOaE9Z478j1mRxl8JtdvAHQrCLbNWFCP/HRktdWjZCVmpI2HHL6ay8d9SMqU574YicBvIG39NDK/NFiA8p7U7sDb+mvCrxXD6vne+FLA0/gpFXFJuqDnY57t+dPoqGO6tTSR4nTbg0fiWao/TIckCqbM3/rJhgh7OaewKrYwYFs43ZRuv4c+ZvHto2NgEU2cLFyi7WGjCGa6BrhVcX5VYRj5DGgGv4Vl3cIrM2C5297hD2tGLhv1ucIrMkCOvde6BhefV2SaiXtFQSga0Pwe2pkzzqpEy3U5GsoJEflh27j+1WEDTjWVOrDkftHQ/oCMt15yPTGkXFRWqA8uvxNrwnlVQp0SNRtpszMq9DpzP9ZKF5y/rEsIGjqbJPIkSAHw2OPAFGY7flWSV8JfEAI8OvCUROwvasBux7/yT8f8BJVnNO6/r15D9hD0pUKcmT2s0CY18xsfCCEhy78jktjdthxvLDbi3DmnZLtL5UoG1gg+dzpAwjmKOk3glp0ETmJMdx52D6YpOAw/DTuIP72wKqRPa25zsXZ9TR59SyQlO2/v+x6R/AWaWhMx8CcmOAAAAAElFTkSuQmCC"/>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(79.0723,0,0,90,5.46294,45)"><stop offset="0" style="stop-color:rgb(0,161,255);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,186,255);stop-opacity:1"/></linearGradient>
     </defs>
 </svg>
