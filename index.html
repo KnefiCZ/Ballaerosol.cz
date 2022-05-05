@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="cz">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
     <title>Ballaerosol</title>
 </head>
 <body>
     <!-- Navigace -->
+    
     <div class="img-fluid background__image background__image--wide">   
+        <div class="background__image--fade">
+
+        </div>
         <header class="container">
             <nav class="navbar navbar__margin--top navbar-expand-lg text-center">
                 <div class="container-fluid">
@@ -55,9 +62,9 @@
                     <div class="col-12">
                         <img class="mt-5 rozball__size" src="img/assets/rozball.svg" alt="RozBall">
                         <br>
-                        <a href="#">
-                            <img class="mb-1 playbutton" src="img\assets\rounded_button.png" alt="btn">
-                        </a>
+                            <a data-fancybox="video" href="https://vimeo.com/136527314">
+                                <img class="mb-1 playbutton" src="img\assets\rounded_button.png" />
+                            </a>
                         <div>
                             <span>|</span>
                             <p class="mb-5">Jak to u nás vypadá</p>
@@ -83,63 +90,102 @@
                 </div>
         </section>
     </div>
+    
     </div>
-    <br>
     <!-- Volné pozice -->
-    <section class="mt__xl mb__lg">
+    <section class="mt__xl mb__xl">
         <div class="container">
             <h2 class="text-center h2 h2--bold"> Volné pozice </h2>
             <div class="row">
                 <!-- Levý col -->
-                    <div class="col-lg-6 imagebox__half--col">
+                    <div class="col-md-6 imagebox__half--col">
                         <div class="col-sm-12 mb-4 mt-5">
-                            <div style="background-image: url(img/imagebox/operator_vyroby.jpg);" class="imagebox__picture">
-                                <a href="#"><div class="imagebox__button circle"><div class="triangle-right"></div></div></a>
-                                <div class="imagebox__infobox">
-                                    <div class="imagebox__heading"> <h3 class="h3 h3--white">Operátor výroby</h3> </div>
-                                    <a href="#" class="imagebox__infobox-button button">více informací</a>
-                                </div>
-                            </div>
+                                    <div style="background-image: url(img/imagebox/operator_vyroby.jpg);" class="z-index-2 imagebox__picture">
+                                        <a href="#" class="imagebox__link">
+                                        <a data-fancybox="video" href="https://vimeo.com/693594530">
+                                            <div class="imagebox__button circle">
+                                                <svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"  class="triangle-right" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                                    <path d="M14.75,40.15L14.75,7.55L40.35,23.85L14.75,40.15Z" style="fill:rgb(0,53,155);fill-rule:nonzero;"/>
+                                                </svg></div>
+                                        </a>
+                                        <div class="imagebox__infobox z-index-2">
+                                            <div class="imagebox__heading"> <h3 class="h3 h3--white">Operátor výroby</h3> </div>
+                                            <a href="#" class="imagebox__infobox-button button">více informací</a>
+                                        </div>
+                                    </a>
+                                    </div>
+                                
                         </div>
-
                         <div class="col-sm-12 mb-4">
                             <div style="background-image: url(img/imagebox/tiskar.jpg);" class="imagebox__picture">
-                                <a class="imagebox__button"></a>
+                                <a href="#" class="imagebox__link">
+                                <a data-fancybox="video" href="https://vimeo.com/273703754">
+                                    <div class="imagebox__button circle">
+                                        <svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"  class="triangle-right" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                            <path d="M14.75,40.15L14.75,7.55L40.35,23.85L14.75,40.15Z" style="fill:rgb(0,53,155);fill-rule:nonzero;"/>
+                                        </svg>
+                                    </div>
+                                </a>
                                 <div class="imagebox__infobox">
                                     <div class="imagebox__heading"> <h3 class="h3 h3--white">Tiskař</h3> </div>
-                                    <a href="#" class="imagebox__infobox-button button">více informací</a>
+                                    <a href="#" class="imagebox__infobox-button imagebox__infobox-button--tiskar button">více informací</a>
                                 </div>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-sm-12 mb-4">
                             <div style="background-image: url(img/imagebox/serizovac_vyroby.jpg);" class="imagebox__picture">
-                                <a class="imagebox__button"></a>
+                                <a href="#" class="imagebox__link">
+                                <a data-fancybox="video" href="https://vimeo.com/136527314">
+                                    <div class="imagebox__button circle">
+                                        <svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"  class="triangle-right" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                            <path d="M14.75,40.15L14.75,7.55L40.35,23.85L14.75,40.15Z" style="fill:rgb(0,53,155);fill-rule:nonzero;"/>
+                                        </svg>
+                                    </div>
+                                </a>
                                 <div class="imagebox__infobox">
                                     <div class="imagebox__heading"> <h3 class="h3 h3--white">Seřizovač výroby</h3> </div>
                                     <a href="#" class="imagebox__infobox-button button">více informací</a>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
             <!-- Pravý col -->
-                    <div class="col-lg-6 imagebox__half--col imagebox__offset">
-                        <div class="col-sm-12 mb-4 mt-5 imagebox__half--col imagebox__offset">
+                    <div class="col-md-6 imagebox__offset">
+                        <div class="col-sm-12 mb-4 mt-5">
                             <div style="background-image: url(img/imagebox/udrzbar.jpg);" class="imagebox__picture">
-                                <a class="imagebox__button"></a>
+                                <a href="#" class="imagebox__link">
+                                <a data-fancybox="video" href="https://vimeo.com/136527314">
+                                    <div class="imagebox__button circle">
+                                        <svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"  class="triangle-right" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                            <path d="M14.75,40.15L14.75,7.55L40.35,23.85L14.75,40.15Z" style="fill:rgb(0,53,155);fill-rule:nonzero;"/>
+                                        </svg>
+                                    </div>
+                                </a>
                                 <div class="imagebox__infobox">
                                     <div class="imagebox__heading"> <h3 class="h3 h3--white">Údržbář</h3> </div>
                                     <a href="#" class="imagebox__infobox-button button">více informací</a>
                                 </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-sm-12 mb-4">
                             <div style="background-image: url(img/imagebox/logistika.jpg);" class="imagebox__picture">
-                                <a class="imagebox__button"></a>
+                                <a href="#" class="imagebox__link">
+                                <a data-fancybox="video" href="https://vimeo.com/136527314">
+                                    <div class="imagebox__button circle">
+                                        <svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"  class="triangle-right" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                            <path d="M14.75,40.15L14.75,7.55L40.35,23.85L14.75,40.15Z" style="fill:rgb(0,53,155);fill-rule:nonzero;"/>
+                                        </svg>
+                                    </div>
+                                </a>
                                 <div class="imagebox__infobox">
                                     <div class="imagebox__heading"> <h3 class="h3 h3--white">Logistika</h3> </div>
                                     <a href="#" class="imagebox__infobox-button button">více informací</a>
                                 </div>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -150,19 +196,18 @@
     </div>
     </section>
     <!-- Box s textem -->
-    <section>
+    <section class="mb__xxxl">
         <div class="container-fluid p-0">
             <div class="position-relative">
-                <div class="rounded-left textbox textbox__align">
-                    <div class="row position-relative">
+                <div class="textbox offset-md-4">
+                    <div class="position-relative">
                             <div class="textbox__bluebox"></div>
-                            <div class="col-sm-3 m-4"></div>
                             <div class="col-sm-6 textbox__text">
                                 <h1 class="h1 h1--white">Ball Velim</h1>
                                 <p class="p--bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta placerat massa, at euismod lectus semper vitae. Aenean vulputate rhoncus sollicitudin. Nunc aliquam id diam vitae consectetur. Praesent pellentesque mi ut dui placerat molestie. </p>
+                                <br>
                                 <p class="p--bold">Fusce neque tellus, tempor vitae nisi et, malesuada elementum lectus. Aliquam gravida interdum vulputate. Aliquam malesuada orci sed nunc blandit lacinia. Praesent congue pretium ipsum ac sagittis. Vestibulum nec dui posuere, scelerisque risus hendrerit, luctus dui.</p>
                             </div>
-                            <div class="col-sm-3"></div>
                     </div>
                 </div>
             </div>
@@ -170,15 +215,15 @@
         
     </section>
     <!-- Kontakni forum -->
-    <section class="mb__lg mt__xl">
+    <section class="mb__xl">
         <div class="container mt-5">
             <div class="row mt-5">
                 <h2 class="text-center h2 h2--bold"> Kontakt </h2>
                 <div class="col-xl-8 order-xl-1 z-index-1 order-2 contactform__position--left">
                     <form class="contactform__wrapper contactform--background_image">
-                        <div class="row">
+                        <div class="row formcontent__align">
                           <div class="col">
-                            <label for="contact-name" class="formcontent__align col col-form-label font__weight--600">Jméno:</label>
+                            <label for="contact-name" class="col col-form-label font__weight--600">Jméno:</label>
                             <input type="text" class="form-control " id="contact-name" placeholder="Jan Novák">
                           </div>
                           <div class="col">
@@ -197,7 +242,7 @@
                         <button type="submit" class="font__color--white font__weight--600 contactform__submitbutton--background contactform__submitbutton">Odeslat zprávu</button>
                       </form>
                 </div>
-                <div class="col-xl-3 order-xl-4 z-index-2 order-1 contactform__position--right text-center">
+                <div class="col-xl-3 order-xl-4 z-index-2 order-1 contactform__position--right formbox__flex">
                     <div class="boxstyle__regularbox boxstyle__regularbox--top align-items-center">
                         <div class="boxstyle__regularbox--text text-break">
                             <h3 class="h5 h5--white">Telefon</h3>
@@ -214,11 +259,9 @@
             </div>
         </div>
     </section>
-    <br class="br__height--l">
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="footer__background">
-            <br class="br__height--s">
             <h2 class="h2 h2--bold h2--white">Zůstaňte s námi</h2>
             <br>
             <div class="socaibox__white--spacing">
@@ -254,7 +297,6 @@
                                      
                 </div></a>
                 
-                <!--PODLE TOHODLE TO DELAT-->
                 <a href="#"><div class="socialbox__style--white socialbox__a socialbox__link-youtube">
                     <svg width="100%" height="100%" class="socialbox__image--white" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
                         <g transform="matrix(0.603344,0,0,0.603344,12.8495,12.8495)">
@@ -297,16 +339,29 @@
                     </svg>
                                      
                 </div></a>
-
-                
-                
             </div>
         </div>
         <div class="footer__opaque">
-            <p class="footer__opaque--text">2022 © Ball Aerosol Packaging CZ s.r.o., Palackého 639, Velim, IČO: 26424444 , SZ: C 81196 vedená u MS v Praze</p>
+            <p>2022 © Ball Aerosol Packaging CZ s.r.o., Palackého 639, Velim, IČO: 26424444 , SZ: C 81196 vedená u MS v Praze</p>
         </div>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script>
+  // Customization example
+  Fancybox.bind("[data-fancybox]", {
+  Html: {
+    video: {
+        hd: 1,
+        show_title: 1,
+        show_byline: 1,
+        show_portrait: 0,
+        fullscreen: 1,
+    },
+  },
+});
+</script>
 </html>
